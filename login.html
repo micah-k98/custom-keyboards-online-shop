@@ -53,15 +53,21 @@
 
             <div class="login-container row mb-5 text-center">
                 <h2 class="mb-5"> log-in </h2>
-                <form class="login-form col-8 text-center" action="/">
+                <form class="login-form needs-validation col-8 text-center" action="/" method="get" novalidate>
                     <div class="form-floating mb-2">
-                        <input type="text" class="form-control" id="username" placeholder="username">
+                        <input type="text" class="form-control" id="username" placeholder="username" required>
                         <label for="#username" class="form-label"> username </label>
+                        <div class="invalid-feedback">
+                            valid username required
+                        </div>
                     </div>
 
                     <div class="form-floating mb-2">
-                        <input type="text" class="form-control" id="password" placeholder="password">
+                        <input type="text" class="form-control" id="password" placeholder="password" required>
                         <label for="#password" class="form-label"> password </label>
+                        <div class="invalid-feedback">
+                            password required
+                        </div>
                     </div>
 
                     <div class="remember-forgot row mb-4">   
@@ -77,8 +83,11 @@
 
                     <button class="btn btn-primary mb-4" type="submit"> sign in </button>
                     <hr class="mb-5">
+                </form>
+
+                <form class="login-form needs-validation col-8 text-center" action="register.html" method="get" novalidate>
                     <h5 class="mb-3"> don't have an account? </h5>
-                    <button class="btn btn-primary" type="submit"> sign up </button>
+                    <button class="btn btn-primary" type="submit" action="register.html"> sign up </button>
                 </form>
             </div>
         </main>
