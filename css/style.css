@@ -5,17 +5,21 @@
     padding: 0;
     font-family: 'Poppins', sans-serif;
     box-sizing: border-box;
+    color: #7d5a5a ;
 }
 
 
 /* NAVIGATION BAR */
 
 li img {
-    height: 50px;
+    height: 40px;
+}
+li img:hover {
+    height: 45px;
 }
 
 .navbar {
-    background-color: antiquewhite;
+    background-color: #ffe1e1 ;
     padding: 1rem 10rem;
 }
 
@@ -30,10 +34,17 @@ li img {
 
 .shop-link {
     text-decoration: none;
-    color: rgb(75, 26, 3);
+    color: #829460;
     font-weight: 900;
     font-size: x-large;
  
+}
+
+.shop-link:hover {
+    color: #90a17d;
+    text-decoration: underline;
+    text-underline-offset: 1rem;
+    text-decoration-color: #90a17d;
 }
 
 .container-fluid {
@@ -64,7 +75,8 @@ li img {
 }
 
 .overlap-text {
-    background-color: antiquewhite;
+    background-color: #faf2f2;
+    color: #7d5a5a;
     padding: 1.5rem;
     width: 75%;
     margin-left: 5%;
@@ -73,5 +85,57 @@ li img {
 
 
 
+/* FOOTER SECTION */
 
+.footer-container {
+    background-color: #FFE1E1;
+    margin-top: 5rem;
+}
+
+.footer-nav {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 3rem 8rem 1rem 8rem;
+
+}
+
+.footer-nav a {
+    text-decoration: none;
+    color: #829460;
+    font-weight: 500;   
+}
+
+.footer-nav ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 1rem;
+}
+
+.first-col {
+    margin: 3rem 0 0 0;
+}
+
+.second-col, .second-col h4 {
+    margin: .5rem 0 0 0 ;
+    color: #7d5a5a;
+}
+
+.web-accounts {
+    display: flex;
+    gap: 2rem;
+   
+}
+
+.third-col {
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
+
+.footer-container h6 {
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+    color: #7d5a5a;
+}
 
