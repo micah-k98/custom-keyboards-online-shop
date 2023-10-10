@@ -57,14 +57,14 @@
 }
 
 @media screen and (max-width: 800px) {
-    .remember-forgot {
+    .remember-forgot, .agree-to-terms, .hear-about {
         font-size: smaller;
     }
 
     .login-container h5{
         font-size: medium;
     }
-    }
+}
 
 
 @media screen and (max-width: 600px) {
@@ -86,4 +86,10 @@
         margin: 0;
     }
  
+}
+
+@media screen and (max-width: 460px) {
+    .agree-to-terms {
+        font-size: x-small;
+    }
 }

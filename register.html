@@ -10,6 +10,7 @@
             <link rel="stylesheet" href="css/style.css">
             <link rel="stylesheet" href="css/mediaqueries.css">
     </head>
+
     <body>
         <nav class="navbar navbar-expand-lg"> 
             <div class="container-fluid">
@@ -47,18 +48,47 @@
             <nav class="my-3 ms-3" style="--bs-breadcrumb-divider: '>';">
                 <ol class="breadcrumb">
                     <li class="breadcrumb-item"><a href="/">home</a></li>
-                    <li class="breadcrumb-item active" aria-current="page"> log-in </li>
+                    <li class="breadcrumb-item active" aria-current="page"> register </li>
                 </ol>
             </nav>
 
             <div class="login-container row mb-5 text-center">
-                <h2 class="mb-5"> log-in </h2>
+                <h2 class="mb-5"> register </h2>
+
                 <form class="login-form needs-validation col-8 text-center" action="/" method="get" novalidate>
+                    
+                    <div class="form-floating mb-2">
+                        <input type="text" class="form-control" id="fName" placeholder="first name" required>
+                        <label for="#fName" class="form-label"> first name </label>
+                        <div class="invalid-feedback">
+                            valid first name required
+                        </div>
+                    </div>
+
+                    <div class="form-floating mb-2">
+                        <input type="text" class="form-control" id="lName" placeholder="last name" required>
+                        <label for="#lName" class="form-label"> last name </label>
+                        <div class="invalid-feedback">
+                            valid first name required
+                        </div>
+                    </div>
+
                     <div class="form-floating mb-2">
                         <input type="text" class="form-control" id="username" placeholder="username" required>
                         <label for="#username" class="form-label"> username </label>
                         <div class="invalid-feedback">
                             valid username required
+                        </div>
+                    </div>
+
+                    <div class="form-floating mb-2">
+                        <div class="input-group has-validation">
+                            <span class="input-group-text" id="inputGroupPrepend">@</span>
+                            <input type="email" class="form-control" id="email" placeholder="email" required>
+                            <label for="#email" class="form-label"> </label>
+                            <div class="invalid-feedback">
+                                valid username required
+                            </div>
                         </div>
                     </div>
 
@@ -70,24 +100,57 @@
                         </div>
                     </div>
 
-                    <div class="remember-forgot row mb-4">   
-                        <div class="form-check col-sm">
-                            <input type="checkbox" class="form-check-input" id="rememberMe" value="">
-                            <label for="rememberMe" class="form-check-label"> remember me? </label>
-                        </div>
-                        <div class="col-sm">
-                            <a class="link-offset-3" href="#"> forgot password? </a>
+                    <div class="form-floating mb-2">
+                        <input type="password" class="form-control" id="confirmPassword" placeholder="confirm password" required>
+                        <label for="#confirmPassword" class="form-label"> confirm password </label>
+                        <div class="invalid-feedback">
+                            password not a match
                         </div>
                     </div>
-                    
 
-                    <button class="btn btn-primary mb-4" type="submit"> sign in </button>
+                    <div class="agree-to-terms form-check col-sm mb-5">
+                        <input type="checkbox" class="form-check-input" id="rememberMe" value="" required>
+                        <label for="rememberMe" class="form-check-label"> 
+                            <a href="policy.html">
+                                Agree to terms and conditions
+                            </a>
+                        </label>
+                        <div class="invalid-feedback">
+                            you must agree before submitting
+                        </div>
+                    </div>
+
                     <hr class="mb-5">
-                </form>
 
-                <form class="login-form needs-validation col-8 text-center" action="register.html" method="get" novalidate>
-                    <h5 class="mb-3"> don't have an account? </h5>
+                    <div class="hear-about col-md-6 col-sm-12 offset-md-3 my-5 text-start">
+                        <h6> how did you hear about us?</h6>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="optionsRadios" id="google" required>
+                            <label class="form-check-label" for="google"> Google </label>
+                        </div>
+
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="optionsRadios" id="instagram" required>
+                            <label class="form-check-label" for="instagram"> Intagram </label>
+                        </div>
+
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="optionsRadios" id="pinterest" required>
+                            <label class="form-check-label" for="pinterest"> Pinterest </label>
+                        </div>
+
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="optionsRadios" id="others" checked required>
+                            <label class="form-check-label" for="others"> Others </label>
+                            <textarea class="form-control" rows="2" spellcheck="false" placeholder="please specify" required></textarea>
+                            <div class="invalid-feedback">
+                                you must specify first before submitting
+                            </div>     
+                        </div>
+                    </div> <!--end of radio buttons-->
+                    
                     <button class="btn btn-primary" type="submit" action="register.html"> sign up </button>
+                    
                 </form>
             </div>
         </main>
@@ -137,10 +200,8 @@
 
             <h6> &#169; 2023 All Rights Reserved. </h6>
         </footer>
-        
-
 
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" 
-            integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+                integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
     </body>
 </html>
