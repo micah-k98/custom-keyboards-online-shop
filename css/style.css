@@ -1,11 +1,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500;1,600&display=swap');
 
+html {
+    height: 100%;
+}
+
+body {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
 * {
     margin: 0;
     padding: 0;
     font-family: 'Poppins', sans-serif;
     box-sizing: border-box;
     color: #7d5a5a ;
+}
+
+a {
+
+    color: #7d5a5a;
 }
 
 
@@ -33,7 +48,6 @@ li img:hover {
 }
 
 .shop-link {
-    text-decoration: none;
     color: #829460;
     font-weight: 900;
     font-size: x-large;
@@ -51,6 +65,10 @@ li img:hover {
     margin-left: 2rem;
     margin-right: 2rem;
     position: relative;
+}
+
+.breadcrumb a {
+    text-decoration: none;
 }
 
 
@@ -88,8 +106,8 @@ li img:hover {
 /* FOOTER SECTION */
 
 .footer-container {
+    margin-top: auto;
     background-color: #FFE1E1;
-    margin-top: 5rem;
 }
 
 .footer-nav {
@@ -111,9 +129,9 @@ li img:hover {
     margin-top: 1rem;
 }
 
-.first-col {
+/* .first-col {
     margin: 3rem 0 0 0;
-}
+} */
 
 .second-col, .second-col h4 {
     margin: .5rem 0 0 0 ;
@@ -138,4 +156,33 @@ li img:hover {
     padding: 1rem;
     color: #7d5a5a;
 }
+
+
+/* LOG-IN PAGE */
+
+.login-container {
+    background-color: #faf2f2;
+    color: #7d5a5a;
+
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+}
+
+.login-container {
+    padding: 4rem 10% 4rem 10%;
+}
+
+.btn-primary {
+    background-color: #ffe1e1;
+    color: #7d5a5a;
+    border-color: #7d5a5a;
+}
+
+.form-check .form-check-input {
+    float: none;
+    margin-right: .5rem;
+}
+
+
 

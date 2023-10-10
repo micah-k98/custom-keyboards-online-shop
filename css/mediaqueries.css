@@ -18,5 +18,72 @@
         width: 90%;
         justify-content: space-evenly
     }
+
+
     
+}
+
+@media screen and (max-width: 990px) {
+    .shop-link {
+        margin-bottom: 1rem;
+    }
+
+    .navbar {
+        padding: 1rem 5rem;
+    }
+
+    .footer-nav {
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .footer-nav {
+        flex-direction: column;
+        align-items: center;
+        align-content: center; 
+    }
+
+    .brand{
+        display: flex;
+        justify-content: center;
+    }
+
+    .first-col, .first-col ul, .second-col, .second-col ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .remember-forgot {
+        font-size: smaller;
+    }
+
+    .login-container h5{
+        font-size: medium;
+    }
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .navbar-brand {
+        margin-right: 0;
+    }
+
+    .remember-forgot {
+        flex-wrap: wrap;
+    }
+ 
+}
+
+@media screen and (max-width: 530px) {
+    .navbar > .container-fluid {
+        justify-content: center;
+        align-items: center;
+        column-gap: 2rem;
+        margin: 0;
+    }
+ 
 }
