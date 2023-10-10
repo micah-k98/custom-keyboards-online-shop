@@ -39,6 +39,39 @@ li img {
 .container-fluid {
     margin-left: 2rem;
     margin-right: 2rem;
+    position: relative;
 }
+
+
+
+/* MAIN CONTAINER */
+
+.first-content, .second-content {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 2rem;
+    gap: 2rem;
+}
+
+.second-column {
+    margin-top: 5rem;
+}
+
+.secondary-photo {
+    width: 40%;
+    margin-left: 60%;
+    margin-top: -15%
+}
+
+.overlap-text {
+    background-color: antiquewhite;
+    padding: 1.5rem;
+    width: 75%;
+    margin-left: 5%;
+    margin-top: -10%;
+}
+
+
+
 
 

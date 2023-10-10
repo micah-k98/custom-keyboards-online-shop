@@ -1,0 +1,22 @@
+@media screen and (max-width: 1100px) {
+    .primary-photo {
+        width: 100%;
+    }
+
+    .second-column {
+        margin-top: 0;
+    }
+
+    .secondary-photo {
+        width: 100%;
+        margin: 0%;
+    }
+    
+    .overlap-text {
+        background-color: antiquewhite;
+        padding: 1.5rem;
+        width: 90%;
+        justify-content: space-evenly
+    }
+    
+}
