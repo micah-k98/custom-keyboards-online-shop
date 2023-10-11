@@ -192,6 +192,14 @@ li img:hover {
     background-color: #faf2f2;
     color: #7d5a5a;
     border-color: #7d5a5a;
+    --bs-btn-active-bg: #f1d1d1;
+    --bs-btn-active-border-color: #7d5a5a;
+    --bs-btn-hover-bg: #f1d1d1;
+    --bs-btn-hover-border-color: #7d5a5a;
+    --bs-btn-disabled-bg: #f1d1d1;
+    --bs-btn-disabled-border-color: #7d5a5a;
+    --bs-btn-bg: #f1d1d1;
+    --bs-btn-border-color: #7d5a5a;
 }
 
 .form-check .form-check-input {
