@@ -54,72 +54,106 @@
 
             <nav class="my-3 ms-3" style="--bs-breadcrumb-divider: '>';">
                 <ol class="breadcrumb">
-                    <li class="breadcrumb-item"><a href="/">home</a></li>
-                    <li class="breadcrumb-item active" aria-current="page"> customized keyboards </li>
+                    <li class="breadcrumb-item"><a href="/"> home </a></li>
+                    <li class="breadcrumb-item active" aria-current="page"> shoppping cart </li>
                 </ol> 
             </nav>
 
-            <div class="products-container mb-5">
-                <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+            <div class="cart-container row mb-5 text-center">
+                <h2 class="mb-5"> shopping cart </h2>
+                <table class="table table-hover text-center">
+                    <tr>
+                        <th> product </th>
+                        <th> quantity </th>
+                        <th> price </th>
+                        <th> total </th>
+                        <th> </th>
+                    </tr>
+                    <tbody class="table-group-divider">
+                        <tr>
+                            <td class="cart-product">
+                                <div class="product-detail row">
+                                    <img class="mr-3 thumbnail col-lg-4 col-md-5 col-sm-6 col-5" width="75" src="images/first-photo.jpg" alt="">
+                                    <div class="col-lg-8 col-sm-12 col-12 text-start">
+                                        <h5 class="pt-1 m-0 text-primary"> GLORIOUS GMMK Pro </h5>
+                                        <h6 class="m-0 text-primary"> OSUME Sakura keycaps </h6>
+                                        <h6 class="m-0 text-primary"> GATERON Milky Yellow </h6>
+                                        <span>status: </span><span class="instock"><strong>in-stock</strong></span>
+                                    </div>
+                                </div>
+                            </td>
+                            <td> 1 </td>
+                            <td> $339.00 </td>
+                            <td> $339.00 </td>
+                            <td> 
+                                <button type="button" class="btn btn-primary"> X </button>
+                            </td>
+                        </tr> <!--end of first product-->
 
-                    <div class="col">
-                      <div class="card h-100 shadow-sm">
-                        <img src="images/first-photo.jpg" class="card-img-top" alt="GMMK Pro ">
-                        <div class="card-body">
-                          <h5 class="card-title"> GMMK Pro </h5>
-                          <p class="card-text"> GLORIOUS GMMK Pro 75% with Sakura keycaps from OSUME. </p>
-                        </div>
-                        <div class="card-footer">
-                          <a href="gmmk-with-keycaps.html" class="btn btn-primary"> view details </a>
-                          <small> $300.00+ </small>
-                        </div>
-                      </div>
-                    </div>
+                        <tr>
+                            <td class="cart-product">
+                                <div class="product-detail row">
+                                    <img class="mr-3 thumbnail col-lg-4 col-md-5 col-sm-6 col-5" width="75" src="images/first-photo.jpg" alt="">
+                                    <div class="col-lg-8 col-sm-12 col-12 text-start">
+                                        <h5 class="pt-1 m-0 text-primary"> OSUME Dusk Keycaps </h5>
+                                        <span>status: </span><span class="few-left"><strong>few-left</strong></span>
+                                    </div>
+                                </div>
+                            </td>
+                            <td> 2 </td>
+                            <td> $95.00 </td>
+                            <td> $190.00 </td>
+                            <td> 
+                                <button type="button" class="btn btn-primary"> X </button>
+                            </td>
+                        </tr> <!--end of second product-->
 
-                    <div class="col">
-                        <div class="card h-100 shadow-sm">
-                          <img src="images/first-photo.jpg" class="card-img-top" alt="...">
-                          <div class="card-body">
-                            <h5 class="card-title"> KEYCHRON Q1 QMK </h5>
-                            <p class="card-text"> KEYCHRON Q1 QMK 75% with Galaxy keycaps from Hyekit Custom Keycaps. </p>
-                          </div>
-                          <div class="card-footer">
-                            <a href="keychron-with-keycaps.html" class="btn btn-primary"> view details </a>
-                            <small> $250.00+ </small>
-                          </div>
-                        </div>
-                    </div>
+                        <tr>
+                            <td class="cart-product">
+                                <div class="product-detail row">
+                                    <img class="mr-3 thumbnail col-lg-4 col-md-5 col-sm-6 col-5" width="75" src="images/first-photo.jpg" alt="">
+                                    <div class="col-lg-8 col-sm-12 col-12 text-start">
+                                        <h5 class="pt-1 m-0 text-primary"> KBDFans KBD67 Lite R3 </h5>
+                                        <h6 class="m-0 text-primary"> HK Gaming Dreamscape keycaps </h6>
+                                        <h6 class="m-0 text-primary"> AKKO CS Lavender </h6>
+                                        <span>status: </span><span class="instock"><strong>in-stock</strong></span>
+                                    </div>
+                                </div>
+                            </td>
+                            <td> 1 </td>
+                            <td> $226.00 </td>
+                            <td> $226.00 </td>
+                            <td> 
+                                <button type="button" class="btn btn-primary"> X </button>
+                            </td>
+                        </tr> <!--end of third product-->
+                       
+                        <tr>
+                            <td colspan="3" class="text-end pe-5"> <h6 class="m-0"> subtotal </h6> </td>
+                            <td> $755.00 </td>
+                            <td></td>
+                        </tr> <!--subtotal-->
 
-                    <div class="col">
-                      <div class="card h-100 shadow-sm">
-                        <img src="images/first-photo.jpg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                          <h5 class="card-title"> AKKO PC75B Plus </h5>
-                          <p class="card-text"> AKKO PC75B Plus 75% with Kitty keycaps FROM EPOMAKER. </p>
-                        </div>
-                        <div class="card-footer">
-                            <a href="akko-with-keycaps.html" class="btn btn-primary"> view details </a>
-                            <small> $200.00+ </small>
-                        </div>
-                      </div>
-                    </div>
+                        <tr>
+                            <td colspan="3" class="text-end pe-5"> <h6 class="m-0"> shipping fee </h6> </td>
+                            <td> $0.00 </td>
+                            <td></td>
+                        </tr> <!--shipping fee-->
 
-                    <div class="col">
-                      <div class="card h-100 shadow-sm">
-                        <img src="images/first-photo.jpg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                          <h5 class="card-title"> KBDFans KBD67 Lite R3 </h5>
-                          <p class="card-text"> KBDFans KBD67 Lite R3 65% with Dreamscape keycaps FROM HK Gaming. </p>
-                        </div>
-                        <div class="card-footer">
-                            <a href="kbd-with-keycaps.html" class="btn btn-primary"> view details </a>
-                            <small> $200.00+ </small>
-                        </div>
-                      </div>
-                    </div>
+                        <tr>
+                            <td colspan="3" class="text-end pe-5"> <h6 class="m-0"> total </h6> </td>
+                            <td> $755.00 </td>
+                            <td></td>
+                        </tr> <!--total-->
+                    </tbody>
+                </table>
 
+                <div class="text-center mt-4">
+                    <button class="btn btn-primary" type="submit" action="checkout.html"> checkout </button>
                 </div>
             </div>
+            
+
         </main>
 
 
