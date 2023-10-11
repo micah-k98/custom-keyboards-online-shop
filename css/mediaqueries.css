@@ -19,14 +19,13 @@
         justify-content: space-evenly
     }
 
-
-    
+    .shop-link {
+        margin-bottom: .5rem;
+    }
 }
 
-@media screen and (max-width: 990px) {
-    .shop-link {
-        margin-bottom: 1rem;
-    }
+@media screen and (max-width: 1200px) {
+    
 
     .navbar {
         padding: 1rem 5rem;
@@ -34,6 +33,16 @@
 
     .footer-nav {
         justify-content: center;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .remember-forgot, .agree-to-terms, .hear-about {
+        font-size: smaller;
+    }
+
+    .login-container h5{
+        font-size: medium;
     }
 }
 
@@ -56,15 +65,6 @@
     }
 }
 
-@media screen and (max-width: 800px) {
-    .remember-forgot, .agree-to-terms, .hear-about {
-        font-size: smaller;
-    }
-
-    .login-container h5{
-        font-size: medium;
-    }
-}
 
 
 @media screen and (max-width: 600px) {
@@ -85,6 +85,15 @@
         column-gap: 2rem;
         margin: 0;
     }
+
+    .input-group {
+        width: 80%;
+    }
+
+    .navbar-collapse {
+        margin-left: 2rem;
+    }
+
  
 }
 
@@ -92,4 +101,6 @@
     .agree-to-terms {
         font-size: x-small;
     }
+
+    
 }

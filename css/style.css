@@ -15,11 +15,10 @@ body {
     padding: 0;
     font-family: 'Poppins', sans-serif;
     box-sizing: border-box;
-    color: #7d5a5a ;
+    color: #7d5a5a;
 }
 
 a {
-
     color: #7d5a5a;
 }
 
@@ -61,6 +60,12 @@ li img:hover {
     text-decoration-color: #90a17d;
 }
 
+.dropdown-menu {
+    --bs-body-color: #829460;
+    --bs-tertiary-bg: #eeeeee;
+    --bs-dropdown-link-active-bg: #f3e1e1;
+}
+
 .container-fluid {
     margin-left: 2rem;
     margin-right: 2rem;
@@ -69,6 +74,16 @@ li img:hover {
 
 .breadcrumb a {
     text-decoration: none;
+}
+
+.form-control-sm {
+    height: 2rem;
+    max-width: 10rem;
+    margin-right: .5rem;
+}
+
+.input-group {
+    align-items: center;
 }
 
 
@@ -107,13 +122,13 @@ li img:hover {
 
 .footer-container {
     margin-top: auto;
-    background-color: #FFE1E1;
+    background-color: #ffe1e1;
 }
 
 .footer-nav {
     display: flex;
     flex-wrap: wrap;
-    padding: 3rem 8rem 1rem 8rem;
+    padding: 0.5rem 5rem .5rem 5rem;
 
 }
 
@@ -126,7 +141,7 @@ li img:hover {
 .footer-nav ul {
     list-style: none;
     padding: 0;
-    margin-top: 1rem;
+    margin-top: .5rem;
 }
 
 /* .first-col {
@@ -153,7 +168,7 @@ li img:hover {
 .footer-container h6 {
     display: flex;
     justify-content: center;
-    padding: 1rem;
+    padding: .5rem;
     color: #7d5a5a;
 }
 
@@ -174,7 +189,7 @@ li img:hover {
 }
 
 .btn-primary {
-    background-color: #ffe1e1;
+    background-color: #faf2f2;
     color: #7d5a5a;
     border-color: #7d5a5a;
 }
@@ -185,4 +200,22 @@ li img:hover {
 }
 
 
+/* CUSTOMIZED KEYBOARDS PAGE */
 
+.card {
+    color:#7d5a5a
+}
+
+.card-body {
+    background-color: #faf2f2;
+}
+
+.card-footer {
+    position: relative;
+}
+
+.card-footer > small {
+    position: absolute;
+    top: 35%;
+    left: 75%;
+}
