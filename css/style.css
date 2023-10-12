@@ -250,6 +250,10 @@ li img:hover {
     color:#7d5a5a !important;
 }
 
+
+/* CART & CHECKOUT PAGE */
+
+
 .instock strong {
     color: #90a17d !important;
 }
@@ -262,7 +266,7 @@ li img:hover {
     width: 50%;
 }
 
-.cart-container {
+.cart-container, .checkout-container {
     background-color: #faf2f2;
     display: flex;
     flex-flow: column wrap;
@@ -272,3 +276,8 @@ li img:hover {
 .cart-container {
     padding: 4rem 1% 4rem 1%;
 }
+
+.checkout-container {
+    padding: 4rem 10% 4rem 10%;
+}
+

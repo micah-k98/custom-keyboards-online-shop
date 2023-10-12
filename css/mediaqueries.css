@@ -132,4 +132,14 @@
         padding: .25rem;
         font-size: x-small;
     }
+
+    #shipment option {
+        font-size: small;
+    }
+
+    .same-address label, 
+    .same-address .form-check-input{
+        font-size: small;
+        margin-right: 0;
+    }
 }
