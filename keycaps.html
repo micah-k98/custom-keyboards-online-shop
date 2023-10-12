@@ -49,6 +49,10 @@
             </div>   
         </nav>
 
+        <div class="free-shipping text-center">
+            <h5> free shipping for orders over $100!</h5>
+        </div>
+
 
         <main class="container">
 
@@ -64,13 +68,14 @@
 
                     <div class="col">
                       <div class="card h-100 shadow-sm">
-                        <img src="images/first-photo.jpg" class="card-img-top" alt="...">
+                        <img src="images/osume-sakura.jpg" class="card-img-top" alt="OSUME Sakura keycaps">
                         <div class="card-body">
                           <h5 class="card-title"> OSUME Sakura Keycaps </h5>
                           <p class="card-text"> Sakura inspired set includes standard base kit with novelty keys. </p>
                         </div>
                         <div class="card-footer">
                           <a href="sakura-keycaps.html" class="btn btn-primary"> view details </a>
+                          <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#addedToCart"> add to cart </button>
                           <small> $95.00 </small>
                         </div>
                       </div>
@@ -78,13 +83,14 @@
 
                     <div class="col">
                       <div class="card h-100 shadow-sm">
-                        <img src="images/first-photo.jpg" class="card-img-top" alt="...">
+                        <img src="images/osume-dusk.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
                           <h5 class="card-title"> OSUME Dusk Keycaps </h5>
                           <p class="card-text"> Dusk inspired set includes standard base kit with novelty keys. </p>
                         </div>
                         <div class="card-footer">
                             <a href="dusk-keycaps.html" class="btn btn-primary"> view details </a>
+                            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#addedToCart"> add to cart </button>
                             <small> $95.00 </small>
                         </div>
                       </div>
@@ -99,6 +105,7 @@
                           </div>
                           <div class="card-footer">
                             <a href="coolgray-keycaps.html" class="btn btn-primary"> view details </a>
+                            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#addedToCart"> add to cart </button>
                             <small> $35.00 </small>
                           </div>
                         </div>
@@ -113,6 +120,7 @@
                           </div>
                           <div class="card-footer">
                             <a href="cat-keycaps.html" class="btn btn-primary"> view details </a>
+                            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#addedToCart"> add to cart </button>
                             <small> $35.00 </small>
                           </div>
                         </div>
@@ -120,13 +128,14 @@
 
                     <div class="col">
                         <div class="card h-100 shadow-sm">
-                          <img src="images/first-photo.jpg" class="card-img-top" alt="...">
+                          <img src="images/akko-sakura-jelly.jpg" class="card-img-top" alt="...">
                           <div class="card-body">
                             <h5 class="card-title"> AKKO Sakura Jelly Keycaps </h5>
                             <p class="card-text"> Pudding inspired set includes standard base kit. </p>
                           </div>
                           <div class="card-footer">
                               <a href="sakurajelly-keycaps.html" class="btn btn-primary"> view details </a>
+                              <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#addedToCart"> add to cart </button>
                               <small> $20.00 </small>
                           </div>
                         </div>
@@ -134,6 +143,25 @@
                     
                 </div>
             </div>
+
+            <div class="modal fade" id="addedToCart" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h1 class="modal-title fs-5" > successfully added to cart! </h1>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        would you like to continue shopping or proceed to cart?
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal"> continue shopping</button>
+                      <a type="button" class="btn btn-primary" href="shoppingcart.html"> cart </a>
+                    </div>
+                  </div>
+                </div>
+            </div>
+
         </main>
 
 

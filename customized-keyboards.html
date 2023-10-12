@@ -49,6 +49,9 @@
             </div>   
         </nav>
 
+        <div class="free-shipping text-center">
+            <h5> free shipping for orders over $100!</h5>
+        </div>
 
         <main class="container">
 
@@ -71,6 +74,7 @@
                         </div>
                         <div class="card-footer">
                           <a href="gmmk-with-keycaps.html" class="btn btn-primary"> view details </a>
+                          <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#addedToCart"> add to cart </button>
                           <small> $300.00+ </small>
                         </div>
                       </div>
@@ -85,6 +89,7 @@
                           </div>
                           <div class="card-footer">
                             <a href="keychron-with-keycaps.html" class="btn btn-primary"> view details </a>
+                            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#addedToCart"> add to cart </button>
                             <small> $250.00+ </small>
                           </div>
                         </div>
@@ -99,6 +104,7 @@
                         </div>
                         <div class="card-footer">
                             <a href="akko-with-keycaps.html" class="btn btn-primary"> view details </a>
+                            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#addedToCart"> add to cart </button>
                             <small> $200.00+ </small>
                         </div>
                       </div>
@@ -113,6 +119,7 @@
                         </div>
                         <div class="card-footer">
                             <a href="kbd-with-keycaps.html" class="btn btn-primary"> view details </a>
+                            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#addedToCart"> add to cart </button>
                             <small> $200.00+ </small>
                         </div>
                       </div>
@@ -120,6 +127,25 @@
 
                 </div>
             </div>
+
+            <div class="modal fade" id="addedToCart" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h1 class="modal-title fs-5" > successfully added to cart! </h1>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        would you like to continue shopping or proceed to cart?
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal"> continue shopping</button>
+                      <a type="button" class="btn btn-primary" href="shoppingcart.html"> cart </a>
+                    </div>
+                  </div>
+                </div>
+            </div>
+
         </main>
 
 
