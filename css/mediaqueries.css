@@ -2,6 +2,10 @@
     #carousel {
         margin-top: -10%;
     }
+
+    .side-text {
+        font-size:medium !important;
+    }
 }
 
 @media screen and (max-width: 1200px) {
@@ -120,6 +124,10 @@
 }
 
 @media screen and (max-width: 460px) {
+    .side-text, .overlap-text {
+        font-size: smaller !important;
+    }
+    
     .agree-to-terms {
         font-size: x-small;
     }

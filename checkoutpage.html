@@ -15,7 +15,7 @@
         <nav class="navbar navbar-expand-lg"> 
             <div class="container-fluid">
                 <a class="navbar-brand" href="index.html">
-                     <img src="images/shop-logo.jpg" alt="Custom Keys Enthusiasts" width="180px"> 
+                     <img src="images/shop-logo.jpg" alt="Custom Keys Enthusiasts" width="180px" title="Custom Keys Enthusiasts Logo"> 
                 </a>
                 
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
@@ -37,11 +37,11 @@
                         <li class="nav-item">
                             <div class="input-group rounded">
                                 <input type="search" class="form-control rounded form-control-sm" id="search" placeholder="Search" aria-label="Search" />
-                                <button type="submit" class="nav-link" for="#search"> <img src="images/search-icon-green.png" alt="Search"> </button>
+                                <button type="submit" class="nav-link" for="#search"> <img src="images/search-icon-green.png" alt="Search" title="Search"> </button>
                             </div> 
                         </li>
-                        <li class="nav-item"> <a class="nav-link" href="login.html"> <img src="images/log-in-icon-green.png" alt="Log In"> </a> </li>
-                        <li class="nav-item"> <a class="nav-link" href="shoppingcart.html"> <img src="images/cart-icon-green.png" alt="Shopping Cart"> </a> </li>
+                        <li class="nav-item"> <a class="nav-link" href="login.html"> <img src="images/log-in-icon-green.png" alt="Log In" title="Log In"> </a> </li>
+                        <li class="nav-item"> <a class="nav-link" href="shoppingcart.html"> <img src="images/cart-icon-green.png" alt="Shopping Cart" title="Shopping Cart"> </a> </li>
                     </ul>
                 </div>
 
@@ -75,7 +75,7 @@
                         <tr>
                             <td class="cart-product ps-3">
                                 <div class="product-detail row">
-                                    <img class="mr-3 thumbnail col-lg-4 col-md-5 col-sm-6 col-5" width="75" src="images/first-photo.jpg" alt="">
+                                    <img class="mr-3 thumbnail col-lg-4 col-md-5 col-sm-6 col-5" width="75" src="images/gmmk-pro-sakura-4.jpg" alt="GMMK Pro with Sakura keycaps">
                                     <div class="col-lg-8 col-sm-12 col-12 text-start">
                                         <h5 class="pt-1 m-0 text-primary"> GLORIOUS GMMK Pro </h5>
                                         <h6 class="m-0 text-primary"> OSUME Sakura keycaps </h6>
@@ -92,7 +92,7 @@
                         <tr>
                             <td class="cart-product ps-3">
                                 <div class="product-detail row">
-                                    <img class="mr-3 thumbnail col-lg-4 col-md-5 col-sm-6 col-5" width="75" src="images/first-photo.jpg" alt="">
+                                    <img class="mr-3 thumbnail col-lg-4 col-md-5 col-sm-6 col-5" width="75" src="images/osume-dusk.jpg" alt="OSUME Dusk keycaps">
                                     <div class="col-lg-8 col-sm-12 col-12 text-start">
                                         <h5 class="pt-1 m-0 text-primary"> OSUME Dusk Keycaps </h5>
                                         <span>status: </span><span class="few-left"><strong>few-left</strong></span>
@@ -107,7 +107,7 @@
                         <tr>
                             <td class="cart-product ps-3">
                                 <div class="product-detail row">
-                                    <img class="mr-3 thumbnail col-lg-4 col-md-5 col-sm-6 col-5" width="75" src="images/first-photo.jpg" alt="">
+                                    <img class="mr-3 thumbnail col-lg-4 col-md-5 col-sm-6 col-5" width="75" src="images/kbd67-dreamscape-4.jpg" alt="KBD67 Lite R3 with Dreamscape keycaps">
                                     <div class="col-lg-8 col-sm-12 col-12 text-start">
                                         <h5 class="pt-1 m-0 text-primary"> KBDFans KBD67 Lite R3 </h5>
                                         <h6 class="m-0 text-primary"> HK Gaming Dreamscape keycaps </h6>
@@ -143,13 +143,13 @@
                 <div class="checkout">
                     <h2 class="mb-5 text-center"> checkout details </h2>
 
-                    <form class="checkout-form needs-validation col-12" action="#" method="get" novalidate>
+                    <form class="checkout-form col-12" action="/" method="get">
                         <h5> contact </h5>
-                        <div class="input-group mb-2 col-6 has-validation">
-                            <span class="input-group-text" id="inputGroupPrepend">@</span>
+                        <div class="input-group mb-2 col-6">
+                            <span class="input-group-text">@</span>
                             <input type="email" class="form-control rounded-end" id="email" placeholder="email" required>
                             <div class="invalid-feedback">
-                                valid username required
+                                valid email required
                             </div>
                         </div>
 
@@ -179,7 +179,7 @@
 
                         <div class="form-floating mb-2 col-12">
                             <input type="text" class="form-control" id="address" placeholder="address" required>
-                            <label for="#adress" class="form-label"> address </label>
+                            <label for="#address" class="form-label"> address </label>
                             <div class="invalid-feedback">
                                 valid address required
                             </div>
@@ -187,7 +187,7 @@
 
                         <div class="form-floating mb-2 col-12">
                             <input type="text" class="form-control" id="address2" placeholder="address 2 (optional)">
-                            <label for="#adress2" class="form-label"> address 2 (optional) </label>
+                            <label for="#address2" class="form-label"> address 2 (optional) </label>
                         </div>
 
                         <div class="row"> <!--city, state, zip-->
@@ -308,7 +308,7 @@
                             </div>
     
                             <div class="form-floating mb-2 col-lg-3">
-                                <input type="number" class="form-control ps-3" id="zip" placeholder="zip code" maxlength="5" required>
+                                <input type="text" class="form-control ps-3" id="zip" placeholder="zip code" maxlength="5" required>
                                 <label for="#zip" class="form-label ms-3"> zip code </label>
                                 <div class="invalid-feedback">
                                     valid zip code required
@@ -317,7 +317,7 @@
                         </div>
 
                         <div class="form-floating mb-2 col-lg-6">
-                            <input type="tel" class="form-control" id="phoneNumber" placeholder="phone number" required>
+                            <input type="text" class="form-control" id="phoneNumber" placeholder="phone number" required maxlength="10">
                             <label for="#phoneNumber" class="form-label"> phone number </label>
                             <div class="invalid-feedback">
                                 phone number required
@@ -344,24 +344,24 @@
 
                             <div class="row ps-3">
                                 <div class="form-floating mb-2 col-lg-5">
-                                    <input type="number" class="form-control ps-3" id="ccNumber" placeholder="card number" maxlength="16" required>
-                                    <label for="#ccNumber" class="form-label ms-3"> card number </label>
+                                    <input type="text" class="form-control ps-3" id="cardNumber" placeholder="card number" maxlength="16" required>
+                                    <label for="#cardNumber" class="form-label ms-3"> card number </label>
                                     <div class="invalid-feedback">
                                         valid card number required
                                     </div>
                                 </div>
         
                                 <div class="form-floating mb-2 col-lg-3">
-                                    <input type="date" class="form-control ps-3" id="exp" placeholder="expiration date" required>
-                                    <label for="#exp" class="form-label ms-3"> expiration date </label>
+                                    <input type="text" class="form-control ps-3" id="expirationDate" placeholder="expiration date" required maxlength="5">
+                                    <label for="#expirationDate" class="form-label ms-3"> expiration date </label>
                                     <div class="invalid-feedback">
                                         valid expiration date required
                                     </div>
                                 </div>
 
                                 <div class="form-floating mb-2 col-lg-3">
-                                    <input type="number" class="form-control ps-3" id="ccv" placeholder="security code" maxlength="3" required>
-                                    <label for="#ccv" class="form-label ms-3"> security code </label>
+                                    <input type="text" class="form-control ps-3" id="code" placeholder="security code" maxlength="3" required>
+                                    <label for="#code" class="form-label ms-3"> security code </label>
                                     <div class="invalid-feedback">
                                         valid security code required
                                     </div>
@@ -369,24 +369,25 @@
                             </div>
                             
                             <div class="form-floating mb-2 ps-3 col-12">
-                                <input type="text" class="form-control ps-3" id="nameCC" placeholder="name on card" maxlength="30" required>
-                                <label for="#nameCC" class="form-label ms-3"> name on card </label>
+                                <input type="text" class="form-control ps-3" id="cardName" placeholder="name on card" maxlength="30" required>
+                                <label for="#cardName" class="form-label ms-3"> name on card </label>
                                 <div class="invalid-feedback">
                                     name on card required
                                 </div>
                             </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="optionsRadios" id="paypal" required>
+                                <label class="form-check-label" for="#paypal"> PayPal </label>
+                            </div>
+                            <div class="same-address form-check mt-4">
+                                <input class="form-check-input" type="checkbox" name="checkbox" id="sameAddress" required>
+                                <label class="form-check-label" for="#sameAddress">  use shipping address as billing address </label>
+                            </div>
                         </div>
 
-                        <div class="form-check">
-                            <input class="form-check-input" type="radio" name="optionsRadios" id="paypal" required>
-                            <label class="form-check-label" for="#paypal"> PayPal </label>
-                        </div>
-                        <div class="same-address form-check mt-4">
-                            <input class="form-check-input" type="checkbox" name="checkbox" id="sameAddress" required>
-                            <label class="form-check-label" for="#sameAddress">  use shipping address as billing address </label>
-                        </div>
+                        
                         <div class="text-center mt-5">
-                            <button class="btn btn-primary" type="submit" action="checkoutpage.html"> pay now </button>
+                            <button class="btn btn-primary" type="submit"> pay now </button>
                         </div>
                     </form>
                 </div>
@@ -407,7 +408,7 @@
 
                     <div class="first-col col-xxl-2 col-lg-3 col-md-4 col-sm-5">
                         <a class="brand" href="#">
-                            <img src="images/shop-logo.jpg" alt="Custom Keys Enthusiasts" width="180px" class="pt-4"> 
+                            <img src="images/shop-logo.jpg" alt="Custom Keys Enthusiasts" width="180px" class="pt-4" title="Custom Keys Enthusiasts Logo"> 
                         </a>
                         <ul>
                             <li> <a href="about.html"> About Us </a> </li>
@@ -428,12 +429,12 @@
 
                     <div class="third-col col">
                         <ul class="web-accounts">
-                            <li class="nav-item"> <a class="nav-link" href="#"> <img src="images/logo-1.jpg" alt="Instagram"> </a> </li>
-                            <li class="nav-item"> <a class="nav-link" href="login.html"> <img src="images/logo-1.jpg" alt="Facebook"> </a> </li>
-                            <li class="nav-item"> <a class="nav-link" href="#"> <img src="images/logo-1.jpg" alt="Pinterest"> </a> </li>
+                            <li class="nav-item"> <a class="nav-link" href="#"> <img src="images/instagram-icon.png" alt="Instagram" title="Instagram"> </a> </li>
+                            <li class="nav-item"> <a class="nav-link" href="#"> <img src="images/facebook-icon.png" alt="Facebook" title="Facebook"> </a> </li>
+                            <li class="nav-item"> <a class="nav-link" href="#"> <img src="images/pinterest-icon.png" alt="Pinterest" title="Pinterest"> </a> </li>
                         </ul>
                     </div>
-                    
+
                 </div>
 
                 

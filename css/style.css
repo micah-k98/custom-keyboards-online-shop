@@ -112,7 +112,7 @@ li img:hover {
 }
 
 .second-column {
-    margin-top: 5rem;
+    margin-top: 3rem;
 }
 
 .secondary-photo {
@@ -169,7 +169,7 @@ li img:hover {
 
 .web-accounts {
     display: flex;
-    gap: 2rem;
+    gap: .5rem;
    
 }
 
