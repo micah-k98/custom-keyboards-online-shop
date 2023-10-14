@@ -53,6 +53,10 @@
         flex-direction: column;
         font-size: small;
     }
+
+    .about-section p{
+        font-size: medium;
+    }
 }
 
 

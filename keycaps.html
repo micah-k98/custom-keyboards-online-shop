@@ -1,228 +1,388 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Custom Keys Enthusiasts</title>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Custom Keys Enthusiasts</title>
 
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" 
-        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-        <link rel="stylesheet" href="css/style.css">
-        <link rel="stylesheet" href="css/mediaqueries.css">
-    </head>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/mediaqueries.css" />
+  </head>
 
-    <body>
-        
-        <nav class="navbar navbar-expand-lg"> 
-        <div class="container-fluid">
-            <a class="navbar-brand" href="index.html">
-                 <img src="images/shop-logo.jpg" alt="Custom Keys Enthusiasts" width="180px" title="Custom Keys Enthusiasts Logo"> 
+  <body>
+    <nav class="navbar navbar-expand-lg">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">
+          <img
+            src="images/shop-logo.png"
+            alt="Custom Keys Enthusiasts"
+            width="250px"
+            title="Custom Keys Enthusiasts Logo"
+          />
+        </a>
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarCollapse"
+          aria-controls="navbarCollapse"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <div class="nav-item dropdown">
+            <a
+              class="shop-link nav-link dropdown-toggle show"
+              data-bs-toggle="dropdown"
+              href="#"
+              role="button"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
+              SHOP
             </a>
-            
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
-                aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-
-            <div class="collapse navbar-collapse" id="navbarCollapse">
-                <div class="nav-item dropdown">
-                    <a class="shop-link nav-link dropdown-toggle show" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false"> SHOP </a>
-                        <div class="dropdown-menu" data-bs-toggle="">
-                            <a class="dropdown-item" href="customized-keyboards.html"> Customized Keyboards </a>
-                            <a class="dropdown-item" href="keycaps.html"> Keycaps </a>
-                            <a class="dropdown-item" href="build-your-own.html"> Build Your Own! </a>
-                        </div>
-                </div>
-                
-                <ul class="nav navbar-nav mr-auto">
-                    <li class="nav-item">
-                        <div class="input-group rounded">
-                            <input type="search" class="form-control rounded form-control-sm" id="search" placeholder="Search" aria-label="Search" />
-                            <button type="submit" class="nav-link" for="#search"> <img src="images/search-icon-green.png" alt="Search" title="Search"> </button>
-                        </div> 
-                    </li>
-                    <li class="nav-item"> <a class="nav-link" href="login.html"> <img src="images/log-in-icon-green.png" alt="Log In" title="Log In"> </a> </li>
-                    <li class="nav-item"> <a class="nav-link" href="shoppingcart.html"> <img src="images/cart-icon-green.png" alt="Shopping Cart" title="Shopping Cart"> </a> </li>
-                </ul>
+            <div class="dropdown-menu" data-bs-toggle="">
+              <a class="dropdown-item" href="customized-keyboards.html">
+                Customized Keyboards
+              </a>
+              <a class="dropdown-item" href="keycaps.html"> Keycaps </a>
+              <a class="dropdown-item" href="build-your-own.html">
+                Build Your Own!
+              </a>
             </div>
+          </div>
 
-        </div>   
-        </nav>
-
-        <div class="free-shipping text-center">
-            <h5> free shipping for orders over $100!</h5>
-        </div>
-
-
-        <main class="container">
-
-            <nav class="my-3 ms-3" style="--bs-breadcrumb-divider: '>';">
-                <ol class="breadcrumb">
-                    <li class="breadcrumb-item"><a href="/">home</a></li>
-                    <li class="breadcrumb-item active" aria-current="page"> keycaps </li>
-                </ol> 
-            </nav>
-
-            <div class="products-container mb-5">
-                <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
-
-                    <div class="col">
-                      <div class="card h-100 shadow-sm">
-                        <img src="images/osume-sakura.jpg" class="card-img-top" alt="OSUME Sakura keycaps">
-                        <div class="card-body">
-                          <h5 class="card-title"> OSUME Sakura Keycaps </h5>
-                          <p class="card-text"> Sakura inspired set that includes a standard base kit with novelty keys. </p>
-                        </div>
-                        <div class="card-footer">
-                          <a href="sakura-keycaps.html" class="btn btn-primary"> view details </a>
-                          <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#addedToCart"> add to cart </button>
-                          <small> $95.00 </small>
-                        </div>
-                      </div>
-                    </div>
-
-                    <div class="col">
-                      <div class="card h-100 shadow-sm">
-                        <img src="images/osume-dusk.jpg" class="card-img-top" alt="OSUME Dusk keycaps">
-                        <div class="card-body">
-                          <h5 class="card-title"> OSUME Dusk Keycaps </h5>
-                          <p class="card-text"> Dusk inspired set that includes a standard base kit with novelty keys. </p>
-                        </div>
-                        <div class="card-footer">
-                            <a href="dusk-keycaps.html" class="btn btn-primary"> view details </a>
-                            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#addedToCart"> add to cart </button>
-                            <small> $95.00 </small>
-                        </div>
-                      </div>
-                    </div>
-
-                    <div class="col">
-                      <div class="card h-100 shadow-sm">
-                        <img src="images/osume-mochi.jpg" class="card-img-top" alt="OSUME Mochi keycaps">
-                        <div class="card-body">
-                          <h5 class="card-title"> OSUME Mochi Keycaps </h5>
-                          <p class="card-text"> White themed keycaps that includes a standard base kit. </p>
-                        </div>
-                        <div class="card-footer">
-                            <a href="mochi-keycaps.html" class="btn btn-primary"> view details </a>
-                            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#addedToCart"> add to cart </button>
-                            <small> $95.00 </small>
-                        </div>
-                      </div>
-                    </div>
-
-                    <div class="col">
-                        <div class="card h-100 shadow-sm">
-                          <img src="images/gmk-muted.jpg" class="card-img-top" alt="GMK Muted 2 keycaps">
-                          <div class="card-body">
-                            <h5 class="card-title"> GMK Muted 2 </h5>
-                            <p class="card-text"> Cool-gray themed keycaps that includes a standard base kit. </p>
-                          </div>
-                          <div class="card-footer">
-                            <a href="muted-keycaps.html" class="btn btn-primary"> view details </a>
-                            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#addedToCart"> add to cart </button>
-                            <small> $75.00 </small>
-                          </div>
-                        </div>
-                    </div>
-
-                    <div class="col">
-                        <div class="card h-100 shadow-sm">
-                          <img src="images/drop-dcx-permafrost.jpg" class="card-img-top" alt="DROP DCX Permafrost keycaps">
-                          <div class="card-body">
-                            <h5 class="card-title"> DROP DCX Permafrost </h5>
-                            <p class="card-text"> A blend of icy white and alpine blue themed keycaps that includes a standard base kit. </p>
-                          </div>
-                          <div class="card-footer">
-                            <a href="permafrost-keycaps.html" class="btn btn-primary"> view details </a>
-                            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#addedToCart"> add to cart </button>
-                            <small> $75.00 </small>
-                          </div>
-                        </div>
-                    </div>
-
-                    <div class="col">
-                      <div class="card h-100 shadow-sm">
-                        <img src="images/drop-dcx-jasmine.jpg" class="card-img-top" alt="DROP DCX Permafrost keycaps">
-                        <div class="card-body">
-                          <h5 class="card-title"> DROP DCX Jasmine </h5>
-                          <p class="card-text"> A blend of light green and beige themed keycaps that includes a standard base kit. </p>
-                        </div>
-                        <div class="card-footer">
-                          <a href="jasmine-keycaps.html" class="btn btn-primary"> view details </a>
-                          <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#addedToCart"> add to cart </button>
-                          <small> $60.00 </small>
-                        </div>
-                      </div>
-                    </div>
-
-                </div>
-            </div>
-
-            <div class="modal fade" id="addedToCart" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-hidden="true">
-                <div class="modal-dialog">
-                  <div class="modal-content">
-                    <div class="modal-header">
-                      <h1 class="modal-title fs-5" > successfully added to cart! </h1>
-                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                    </div>
-                    <div class="modal-body">
-                        would you like to continue shopping or proceed to cart?
-                    </div>
-                    <div class="modal-footer">
-                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal"> continue shopping</button>
-                      <a type="button" class="btn btn-primary" href="shoppingcart.html"> cart </a>
-                    </div>
-                  </div>
-                </div>
-            </div>
-
-        </main>
-
-
-        <footer class="footer-container">
-          <div class="container-fluid m-0">
-              <div class="footer-nav">
-
-                  <div class="first-col col-xxl-2 col-lg-3 col-md-4 col-sm-5">
-                      <a class="brand" href="#">
-                          <img src="images/shop-logo.jpg" alt="Custom Keys Enthusiasts" width="180px" class="pt-4" title="Custom Keys Enthusiasts Logo"> 
-                      </a>
-                      <ul>
-                          <li> <a href="about.html"> About Us </a> </li>
-                          <li> <a href="contact.html"> Contact Us! </a> </li>
-                      </ul>
-                  </div>
-
-                  <div class="second-col col-xxl-3 col-lg-4 col-md-5 col-sm-8">
-                      <h5 class="mt-3">HELP & SUPPORT</h5>
-                      <ul>
-                          <li> <a href="order.html"> Order Tracking </a> </li>
-                          <li> <a href="policy.html"> Shipping & Order Policy </a> </li>
-                          <li> <a href="policy.html"> Return Policy </a> </li>
-                          <li> <a href="policy.html"> Privacy Policy </a> </li>
-                          <li> <a href="policy.html"> Terms of Use</a> </li>
-                      </ul>
-                  </div>
-
-                  <div class="third-col col">
-                      <ul class="web-accounts">
-                          <li class="nav-item"> <a class="nav-link" href="#"> <img src="images/instagram-icon.png" alt="Instagram" title="Instagram"> </a> </li>
-                          <li class="nav-item"> <a class="nav-link" href="#"> <img src="images/facebook-icon.png" alt="Facebook" title="Facebook"> </a> </li>
-                          <li class="nav-item"> <a class="nav-link" href="#"> <img src="images/pinterest-icon.png" alt="Pinterest" title="Pinterest"> </a> </li>
-                      </ul>
-                  </div>
-
+          <ul class="nav navbar-nav mr-auto">
+            <li class="nav-item">
+              <div class="input-group rounded">
+                <input
+                  type="search"
+                  class="form-control rounded form-control-sm"
+                  id="search"
+                  placeholder="Search"
+                  aria-label="Search"
+                />
+                <button type="submit" class="nav-link" for="#search">
+                  <img
+                    src="images/search-icon-green.png"
+                    alt="Search"
+                    title="Search"
+                  />
+                </button>
               </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="login.html">
+                <img
+                  src="images/log-in-icon-green.png"
+                  alt="Log In"
+                  title="Log In"
+                />
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="shoppingcart.html">
+                <img
+                  src="images/cart-icon-green.png"
+                  alt="Shopping Cart"
+                  title="Shopping Cart"
+                />
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
 
-              
-          </div>   
+    <div class="free-shipping text-center">
+      <h5>free shipping for orders over $100!</h5>
+    </div>
 
-          <h6> &#169; 2023 All Rights Reserved. </h6>
-        </footer>
-        
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" 
-        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <main class="container">
+      <nav class="my-3 ms-3" style="--bs-breadcrumb-divider: '>'">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item"><a href="/">home</a></li>
+          <li class="breadcrumb-item active" aria-current="page">keycaps</li>
+        </ol>
+      </nav>
 
-    </body>
+      <div class="products-container mb-5">
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+          <div class="col">
+            <div class="card h-100 shadow-sm">
+              <img
+                src="images/osume-sakura.jpg"
+                class="card-img-top"
+                alt="OSUME Sakura keycaps"
+              />
+              <div class="card-body">
+                <h5 class="card-title">OSUME Sakura Keycaps</h5>
+                <p class="card-text">
+                  Sakura inspired set that includes a standard base kit with
+                  novelty keys.
+                </p>
+              </div>
+              <div class="card-footer">
+                <a href="#" class="btn btn-primary">
+                  view details
+                </a>
+                <button
+                  type="button"
+                  class="btn btn-primary"
+                  data-bs-toggle="modal"
+                  data-bs-target="#addedToCart"
+                >
+                  add to cart
+                </button>
+                <small> $95.00 </small>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card h-100 shadow-sm">
+              <img
+                src="images/osume-dusk.jpg"
+                class="card-img-top"
+                alt="OSUME Dusk keycaps"
+              />
+              <div class="card-body">
+                <h5 class="card-title">OSUME Dusk Keycaps</h5>
+                <p class="card-text">
+                  Dusk inspired set that includes a standard base kit with
+                  novelty keys.
+                </p>
+              </div>
+              <div class="card-footer">
+                <a href="#" class="btn btn-primary">
+                  view details
+                </a>
+                <button
+                  type="button"
+                  class="btn btn-primary"
+                  data-bs-toggle="modal"
+                  data-bs-target="#addedToCart"
+                >
+                  add to cart
+                </button>
+                <small> $95.00 </small>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card h-100 shadow-sm">
+              <img
+                src="images/osume-mochi.jpg"
+                class="card-img-top"
+                alt="OSUME Mochi keycaps"
+              />
+              <div class="card-body">
+                <h5 class="card-title">OSUME Mochi Keycaps</h5>
+                <p class="card-text">
+                  White themed keycaps that includes a standard base kit.
+                </p>
+              </div>
+              <div class="card-footer">
+                <a href="#" class="btn btn-primary">
+                  view details
+                </a>
+                <button
+                  type="button"
+                  class="btn btn-primary"
+                  data-bs-toggle="modal"
+                  data-bs-target="#addedToCart"
+                >
+                  add to cart
+                </button>
+                <small> $95.00 </small>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card h-100 shadow-sm">
+              <img
+                src="images/drop-dcx-permafrost.jpg"
+                class="card-img-top"
+                alt="DROP DCX Permafrost keycaps"
+              />
+              <div class="card-body">
+                <h5 class="card-title">DROP DCX Permafrost</h5>
+                <p class="card-text">
+                  A blend of icy white and alpine blue themed keycaps that
+                  includes a standard base kit.
+                </p>
+              </div>
+              <div class="card-footer">
+                <a href="#" class="btn btn-primary">
+                  view details
+                </a>
+                <button
+                  type="button"
+                  class="btn btn-primary"
+                  data-bs-toggle="modal"
+                  data-bs-target="#addedToCart"
+                >
+                  add to cart
+                </button>
+                <small> $75.00 </small>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card h-100 shadow-sm">
+              <img
+                src="images/drop-dcx-jasmine.jpg"
+                class="card-img-top"
+                alt="DROP DCX Permafrost keycaps"
+              />
+              <div class="card-body">
+                <h5 class="card-title">DROP DCX Jasmine</h5>
+                <p class="card-text">
+                  A blend of light green and beige themed keycaps that includes
+                  a standard base kit.
+                </p>
+              </div>
+              <div class="card-footer">
+                <a href="#" class="btn btn-primary">
+                  view details
+                </a>
+                <button
+                  type="button"
+                  class="btn btn-primary"
+                  data-bs-toggle="modal"
+                  data-bs-target="#addedToCart"
+                >
+                  add to cart
+                </button>
+                <small> $60.00 </small>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div
+        class="modal fade"
+        id="addedToCart"
+        data-bs-backdrop="static"
+        data-bs-keyboard="false"
+        tabindex="-1"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5">successfully added to cart!</h1>
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="modal"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="modal-body">
+              would you like to continue shopping or proceed to cart?
+            </div>
+            <div class="modal-footer">
+              <button
+                type="button"
+                class="btn btn-secondary"
+                data-bs-dismiss="modal"
+              >
+                continue shopping
+              </button>
+              <a type="button" class="btn btn-primary" href="shoppingcart.html">
+                cart
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer class="footer-container">
+      <div class="container-fluid m-0">
+        <div class="footer-nav">
+          <div class="first-col col-xxl-2 col-lg-3 col-md-4 col-sm-5">
+            <a class="brand" href="#">
+              <img
+                src="images/shop-logo.png"
+                alt="Custom Keys Enthusiasts"
+                width="180px"
+                class="pt-4"
+                title="Custom Keys Enthusiasts Logo"
+              />
+            </a>
+            <ul>
+              <li><a href="about.html"> About Us </a></li>
+              <li><a href="contact.html"> Contact Us! </a></li>
+            </ul>
+          </div>
+
+          <div class="second-col col-xxl-3 col-lg-4 col-md-5 col-sm-8">
+            <h5 class="mt-3">HELP & SUPPORT</h5>
+            <ul>
+              <li><a href="policy.html"> Shipping & Order Policy </a></li>
+              <li><a href="policy.html"> Return Policy </a></li>
+              <li><a href="policy.html"> Privacy Policy </a></li>
+              <li><a href="policy.html"> Terms of Use</a></li>
+            </ul>
+          </div>
+
+          <div class="third-col col">
+            <ul class="web-accounts">
+              <li class="nav-item">
+                <a class="nav-link" href="#">
+                  <img
+                    src="images/instagram-icon.png"
+                    alt="Instagram"
+                    title="Instagram"
+                  />
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">
+                  <img
+                    src="images/facebook-icon.png"
+                    alt="Facebook"
+                    title="Facebook"
+                  />
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">
+                  <img
+                    src="images/pinterest-icon.png"
+                    alt="Pinterest"
+                    title="Pinterest"
+                  />
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <h6>&#169; 2023 All Rights Reserved.</h6>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>

@@ -1,206 +1,351 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-            <meta name="viewport" content="width=device-width, initial-scale=1.0">
-            <title>Custom Keys Enthusiasts</title>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Custom Keys Enthusiasts</title>
 
-            <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" 
-            integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-            <link rel="stylesheet" href="css/style.css">
-            <link rel="stylesheet" href="css/mediaqueries.css">
-    </head>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/mediaqueries.css" />
+  </head>
 
-    <body>
-        
-        <nav class="navbar navbar-expand-lg"> 
-            <div class="container-fluid">
-                <a class="navbar-brand" href="index.html">
-                     <img src="images/shop-logo.jpg" alt="Custom Keys Enthusiasts" width="180px" title="Custom Keys Enthusiasts Logo"> 
-                </a>
-                
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
-                    aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
+  <body>
+    <nav class="navbar navbar-expand-lg">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">
+          <img
+            src="images/shop-logo.png"
+            alt="Custom Keys Enthusiasts"
+            width="250px"
+            title="Custom Keys Enthusiasts Logo"
+          />
+        </a>
 
-                <div class="collapse navbar-collapse" id="navbarCollapse">
-                    <div class="nav-item dropdown">
-                        <a class="shop-link nav-link dropdown-toggle show" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false"> SHOP </a>
-                            <div class="dropdown-menu" data-bs-toggle="">
-                                <a class="dropdown-item" href="customized-keyboards.html"> Customized Keyboards </a>
-                                <a class="dropdown-item" href="keycaps.html"> Keycaps </a>
-                                <a class="dropdown-item" href="build-your-own.html"> Build Your Own! </a>
-                            </div>
-                    </div>
-                    
-                    <ul class="nav navbar-nav mr-auto">
-                        <li class="nav-item">
-                            <div class="input-group rounded">
-                                <input type="search" class="form-control rounded form-control-sm" id="search" placeholder="Search" aria-label="Search" />
-                                <button type="submit" class="nav-link" for="#search"> <img src="images/search-icon-green.png" alt="Search" title="Search"> </button>
-                            </div> 
-                        </li>
-                        <li class="nav-item"> <a class="nav-link" href="login.html"> <img src="images/log-in-icon-green.png" alt="Log In" title="Log In"> </a> </li>
-                        <li class="nav-item"> <a class="nav-link" href="shoppingcart.html"> <img src="images/cart-icon-green.png" alt="Shopping Cart" title="Shopping Cart"> </a> </li>
-                    </ul>
-                </div>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarCollapse"
+          aria-controls="navbarCollapse"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
 
-            </div>   
-        </nav>
-
-
-        <main class="container">
-            <nav class="my-3 ms-3" style="--bs-breadcrumb-divider: '>';">
-                <ol class="breadcrumb">
-                    <li class="breadcrumb-item"><a href="/">home</a></li>
-                    <li class="breadcrumb-item active" aria-current="page"> register </li>
-                </ol>
-            </nav>
-
-            <div class="login-container row mb-5 text-center">
-                <h2 class="mb-5"> register </h2>
-
-                <form class="login-form col-8 text-center" action="/" method="get">
-                    
-                    <div class="form-floating mb-2">
-                        <input type="text" class="form-control" id="fName" placeholder="first name" required>
-                        <label for="#fName" class="form-label"> first name </label>
-                        <div class="invalid-feedback">
-                            valid first name required
-                        </div>
-                    </div>
-
-                    <div class="form-floating mb-2">
-                        <input type="text" class="form-control" id="lName" placeholder="last name" required>
-                        <label for="#lName" class="form-label"> last name </label>
-                        <div class="invalid-feedback">
-                            valid first name required
-                        </div>
-                    </div>
-
-                    <div class="form-floating mb-2">
-                        <input type="text" class="form-control" id="username" placeholder="username" required>
-                        <label for="#username" class="form-label"> username </label>
-                        <div class="invalid-feedback">
-                            valid username required
-                        </div>
-                    </div>
-
-                    <div class="input-group mb-2 col-6 has-validation">
-                        <span class="input-group-text" id="inputGroupPrepend">@</span>
-                        <input type="email" class="form-control rounded-end" id="email" placeholder="email" required>
-                        <div class="invalid-feedback">
-                            valid username required
-                        </div>
-                    </div>
-
-                    <div class="form-floating mb-2">
-                        <input type="password" class="form-control" id="password" placeholder="password" required>
-                        <label for="#password" class="form-label"> password </label>
-                        <div class="invalid-feedback">
-                            password required
-                        </div>
-                    </div>
-
-                    <div class="form-floating mb-2">
-                        <input type="password" class="form-control" id="confirmPassword" placeholder="confirm password" required>
-                        <label for="#confirmPassword" class="form-label"> confirm password </label>
-                        <div class="invalid-feedback">
-                            password not a match
-                        </div>
-                    </div>
-
-                    <div class="agree-to-terms form-check col-sm mb-5">
-                        <input type="checkbox" class="form-check-input" id="rememberMe" value="" required>
-                        <label for="rememberMe" class="form-check-label"> 
-                            <a href="policy.html">
-                                Agree to terms and conditions
-                            </a>
-                        </label>
-                        <div class="invalid-feedback">
-                            you must agree before submitting
-                        </div>
-                    </div>
-
-                    <hr class="mb-5">
-
-                    <div class="hear-about col-md-6 col-sm-12 offset-md-3 my-5 text-start">
-                        <h6> how did you hear about us?</h6>
-                        <div class="form-check">
-                            <input class="form-check-input" type="radio" name="optionsRadios" id="google" required>
-                            <label class="form-check-label" for="google"> Google </label>
-                        </div>
-
-                        <div class="form-check">
-                            <input class="form-check-input" type="radio" name="optionsRadios" id="instagram" required>
-                            <label class="form-check-label" for="instagram"> Intagram </label>
-                        </div>
-
-                        <div class="form-check">
-                            <input class="form-check-input" type="radio" name="optionsRadios" id="pinterest" required>
-                            <label class="form-check-label" for="pinterest"> Pinterest </label>
-                        </div>
-
-                        <div class="form-check">
-                            <input class="form-check-input" type="radio" name="optionsRadios" id="others" checked required>
-                            <label class="form-check-label" for="others"> Others </label>
-                            <textarea class="form-control" rows="2" spellcheck="false" placeholder="please specify" required></textarea>
-                            <div class="invalid-feedback">
-                                you must specify first before submitting
-                            </div>     
-                        </div>
-                    </div> <!--end of radio buttons-->
-                    
-                    <button class="btn btn-primary" type="submit"> sign up </button>
-                    
-                </form>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <div class="nav-item dropdown">
+            <a
+              class="shop-link nav-link dropdown-toggle show"
+              data-bs-toggle="dropdown"
+              href="#"
+              role="button"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
+              SHOP
+            </a>
+            <div class="dropdown-menu" data-bs-toggle="">
+              <a class="dropdown-item" href="customized-keyboards.html">
+                Customized Keyboards
+              </a>
+              <a class="dropdown-item" href="keycaps.html"> Keycaps </a>
+              <a class="dropdown-item" href="build-your-own.html">
+                Build Your Own!
+              </a>
             </div>
-        </main>
+          </div>
 
+          <ul class="nav navbar-nav mr-auto">
+            <li class="nav-item">
+              <div class="input-group rounded">
+                <input
+                  type="search"
+                  class="form-control rounded form-control-sm"
+                  id="search"
+                  placeholder="Search"
+                  aria-label="Search"
+                />
+                <button type="submit" class="nav-link" for="#search">
+                  <img
+                    src="images/search-icon-green.png"
+                    alt="Search"
+                    title="Search"
+                  />
+                </button>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="login.html">
+                <img
+                  src="images/log-in-icon-green.png"
+                  alt="Log In"
+                  title="Log In"
+                />
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="shoppingcart.html">
+                <img
+                  src="images/cart-icon-green.png"
+                  alt="Shopping Cart"
+                  title="Shopping Cart"
+                />
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
 
-        <footer class="footer-container">
-            <div class="container-fluid m-0">
-                <div class="footer-nav">
+    <main class="container">
+      <nav class="my-3 ms-3" style="--bs-breadcrumb-divider: '>'">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item"><a href="/">home</a></li>
+          <li class="breadcrumb-item active" aria-current="page">register</li>
+        </ol>
+      </nav>
 
-                    <div class="first-col col-xxl-2 col-lg-3 col-md-4 col-sm-5">
-                        <a class="brand" href="#">
-                            <img src="images/shop-logo.jpg" alt="Custom Keys Enthusiasts" width="180px" class="pt-4" title="Custom Keys Enthusiasts Logo"> 
-                        </a>
-                        <ul>
-                            <li> <a href="about.html"> About Us </a> </li>
-                            <li> <a href="contact.html"> Contact Us! </a> </li>
-                        </ul>
-                    </div>
+      <div class="login-container row mb-5 text-center">
+        <h2 class="mb-5">register</h2>
 
-                    <div class="second-col col-xxl-3 col-lg-4 col-md-5 col-sm-8">
-                        <h5 class="mt-3">HELP & SUPPORT</h5>
-                        <ul>
-                            <li> <a href="order.html"> Order Tracking </a> </li>
-                            <li> <a href="policy.html"> Shipping & Order Policy </a> </li>
-                            <li> <a href="policy.html"> Return Policy </a> </li>
-                            <li> <a href="policy.html"> Privacy Policy </a> </li>
-                            <li> <a href="policy.html"> Terms of Use</a> </li>
-                        </ul>
-                    </div>
+        <form class="login-form col-8 text-center" action="/" method="get">
+          <div class="form-floating mb-2">
+            <input
+              type="text"
+              class="form-control"
+              id="fName"
+              placeholder="first name"
+              required
+            />
+            <label for="#fName" class="form-label"> first name </label>
+            <div class="invalid-feedback">valid first name required</div>
+          </div>
 
-                    <div class="third-col col">
-                        <ul class="web-accounts">
-                            <li class="nav-item"> <a class="nav-link" href="#"> <img src="images/instagram-icon.png" alt="Instagram" title="Instagram"> </a> </li>
-                            <li class="nav-item"> <a class="nav-link" href="#"> <img src="images/facebook-icon.png" alt="Facebook" title="Facebook"> </a> </li>
-                            <li class="nav-item"> <a class="nav-link" href="#"> <img src="images/pinterest-icon.png" alt="Pinterest" title="Pinterest"> </a> </li>
-                        </ul>
-                    </div>
+          <div class="form-floating mb-2">
+            <input
+              type="text"
+              class="form-control"
+              id="lName"
+              placeholder="last name"
+              required
+            />
+            <label for="#lName" class="form-label"> last name </label>
+            <div class="invalid-feedback">valid first name required</div>
+          </div>
 
-                </div>
+          <div class="form-floating mb-2">
+            <input
+              type="text"
+              class="form-control"
+              id="username"
+              placeholder="username"
+              required
+            />
+            <label for="#username" class="form-label"> username </label>
+            <div class="invalid-feedback">valid username required</div>
+          </div>
 
-                
-            </div>   
+          <div class="input-group mb-2 col-6 has-validation">
+            <span class="input-group-text">@</span>
+            <input
+              type="email"
+              class="form-control rounded-end"
+              id="email"
+              placeholder="email"
+              required
+            />
+            <div class="invalid-feedback">valid email required</div>
+          </div>
 
-            <h6> &#169; 2023 All Rights Reserved. </h6>
-        </footer>
+          <div class="form-floating mb-2">
+            <input
+              type="password"
+              class="form-control"
+              id="password"
+              placeholder="password"
+              required
+            />
+            <label for="#password" class="form-label"> password </label>
+            <div class="invalid-feedback">password required</div>
+          </div>
 
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" 
-                integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
-    </body>
+          <div class="form-floating mb-2">
+            <input
+              type="password"
+              class="form-control"
+              id="confirmPassword"
+              placeholder="confirm password"
+              required
+            />
+            <label for="#confirmPassword" class="form-label">
+              confirm password
+            </label>
+            <div class="invalid-feedback">password not a match</div>
+          </div>
+
+          <div class="agree-to-terms form-check col-sm mb-5">
+            <input
+              type="checkbox"
+              class="form-check-input"
+              id="rememberMe"
+              value=""
+              required
+            />
+            <label for="#rememberMe" class="form-check-label">
+              <a href="policy.html"> Agree to terms and conditions </a>
+            </label>
+            <div class="invalid-feedback">you must agree before submitting</div>
+          </div>
+
+          <hr class="mb-5" />
+
+          <div
+            class="hear-about col-md-6 col-sm-12 offset-md-3 my-5 text-start"
+          >
+            <h6>how did you hear about us?</h6>
+            <div class="form-check">
+              <input
+                class="form-check-input"
+                type="radio"
+                name="optionsRadios"
+                id="google"
+                required
+              />
+              <label class="form-check-label" for="#google"> Google </label>
+            </div>
+
+            <div class="form-check">
+              <input
+                class="form-check-input"
+                type="radio"
+                name="optionsRadios"
+                id="instagram"
+                required
+              />
+              <label class="form-check-label" for="#instagram">
+                Intagram
+              </label>
+            </div>
+
+            <div class="form-check">
+              <input
+                class="form-check-input"
+                type="radio"
+                name="optionsRadios"
+                id="pinterest"
+                required
+              />
+              <label class="form-check-label" for="#pinterest">
+                Pinterest
+              </label>
+            </div>
+
+            <div class="form-check">
+              <input
+                class="form-check-input"
+                type="radio"
+                name="optionsRadios"
+                id="others"
+                checked
+                required
+              />
+              <label class="form-check-label" for="#others"> Others </label>
+              <textarea
+                class="form-control"
+                rows="2"
+                spellcheck="false"
+                placeholder="please specify"
+                required
+              ></textarea>
+              <div class="invalid-feedback">
+                you must specify first before submitting
+              </div>
+            </div>
+          </div>
+          <!--end of radio buttons-->
+
+          <button class="btn btn-primary" type="submit">sign up</button>
+        </form>
+      </div>
+    </main>
+
+    <footer class="footer-container">
+      <div class="container-fluid m-0">
+        <div class="footer-nav">
+          <div class="first-col col-xxl-2 col-lg-3 col-md-4 col-sm-5">
+            <a class="brand" href="#">
+              <img
+                src="images/shop-logo.png"
+                alt="Custom Keys Enthusiasts"
+                width="180px"
+                class="pt-4"
+                title="Custom Keys Enthusiasts Logo"
+              />
+            </a>
+            <ul>
+              <li><a href="about.html"> About Us </a></li>
+              <li><a href="contact.html"> Contact Us! </a></li>
+            </ul>
+          </div>
+
+          <div class="second-col col-xxl-3 col-lg-4 col-md-5 col-sm-8">
+            <h5 class="mt-3">HELP & SUPPORT</h5>
+            <ul>
+              <li><a href="policy.html"> Shipping & Order Policy </a></li>
+              <li><a href="policy.html"> Return Policy </a></li>
+              <li><a href="policy.html"> Privacy Policy </a></li>
+              <li><a href="policy.html"> Terms of Use</a></li>
+            </ul>
+          </div>
+
+          <div class="third-col col">
+            <ul class="web-accounts">
+              <li class="nav-item">
+                <a class="nav-link" href="#">
+                  <img
+                    src="images/instagram-icon.png"
+                    alt="Instagram"
+                    title="Instagram"
+                  />
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">
+                  <img
+                    src="images/facebook-icon.png"
+                    alt="Facebook"
+                    title="Facebook"
+                  />
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">
+                  <img
+                    src="images/pinterest-icon.png"
+                    alt="Pinterest"
+                    title="Pinterest"
+                  />
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <h6>&#169; 2023 All Rights Reserved.</h6>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>

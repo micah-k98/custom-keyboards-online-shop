@@ -33,7 +33,7 @@ li img:hover {
 }
 
 .navbar {
-    background-color: #ffe1e1 ;
+    background-color: #fef5ed ;
     padding: 1rem 10rem;
 }
 
@@ -112,7 +112,7 @@ li img:hover {
 }
 
 .second-column {
-    margin-top: 3rem;
+    margin-top: 5rem;
 }
 
 .secondary-photo {
@@ -136,7 +136,7 @@ li img:hover {
 
 .footer-container {
     margin-top: auto;
-    background-color: #ffe1e1;
+    background-color: #fef5ed;
 }
 
 .footer-nav {
@@ -169,7 +169,7 @@ li img:hover {
 
 .web-accounts {
     display: flex;
-    gap: .5rem;
+    gap: 2rem;
    
 }
 
@@ -189,7 +189,7 @@ li img:hover {
 
 /* LOG-IN PAGE */
 
-.login-container {
+.login-container, .contact-container, .policy-container {
     background-color: #faf2f2;
     color: #7d5a5a;
 
@@ -198,7 +198,7 @@ li img:hover {
     align-items: center;
 }
 
-.login-container {
+.login-container, .contact-container, .policy-container {
     padding: 4rem 10% 4rem 10%;
 }
 
@@ -285,6 +285,10 @@ li img:hover {
     color:#7d5a5a !important;
 }
 
+.product-container .note {
+    font-size: x-small;
+}
+
 
 /* CART & CHECKOUT PAGE */
 
@@ -321,4 +325,13 @@ li img:hover {
 
 .modal h1 {
     color: #829460;
+}
+
+
+/* ABOUT SECTION */
+
+.about-section {
+    display: flex;
+    flex-flow: column wrap;
+    
 }
