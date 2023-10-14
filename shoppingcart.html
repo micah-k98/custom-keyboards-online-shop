@@ -129,7 +129,7 @@
             <th></th>
           </tr>
           <tbody class="table-group-divider">
-            <tr>
+            <tr class="">
               <td class="cart-product ps-3">
                 <div class="product-detail row">
                   <img
@@ -147,7 +147,9 @@
                   </div>
                 </div>
               </td>
-              <td>1</td>
+              <td class="col-1 qty">
+                  <input type="number" class="form-control" value="1">
+              </td>
               <td>$339.00</td>
               <td>$339.00</td>
               <td>
@@ -155,31 +157,6 @@
               </td>
             </tr>
             <!--end of first product-->
-
-            <tr>
-              <td class="cart-product ps-3">
-                <div class="product-detail row">
-                  <img
-                    class="mr-3 thumbnail col-lg-4 col-md-5 col-sm-6 col-5"
-                    width="75"
-                    src="images/osume-dusk.jpg"
-                    alt="OSUME Dusk keycaps"
-                  />
-                  <div class="col-lg-8 col-sm-12 col-12 text-start">
-                    <h5 class="pt-1 m-0 text-primary">OSUME Dusk Keycaps</h5>
-                    <span>status: </span
-                    ><span class="few-left"><strong>few-left</strong></span>
-                  </div>
-                </div>
-              </td>
-              <td>2</td>
-              <td>$95.00</td>
-              <td>$190.00</td>
-              <td>
-                <button type="button" class="btn btn-primary">X</button>
-              </td>
-            </tr>
-            <!--end of second product-->
 
             <tr>
               <td class="cart-product ps-3">
@@ -201,9 +178,38 @@
                   </div>
                 </div>
               </td>
-              <td>1</td>
-              <td>$226.00</td>
-              <td>$226.00</td>
+              <td class="col-1 qty">
+                <input type="number" class="form-control" value="1">
+              </td>
+              <td>$221.00</td>
+              <td>$221.00</td>
+              <td>
+                <button type="button" class="btn btn-primary">X</button>
+              </td>
+            </tr>
+            <!--end of second product-->
+
+            <tr>
+              <td class="cart-product ps-3">
+                <div class="product-detail row">
+                  <img
+                    class="mr-3 thumbnail col-lg-4 col-md-5 col-sm-6 col-5"
+                    width="75"
+                    src="images/osume-dusk.jpg"
+                    alt="OSUME Dusk keycaps"
+                  />
+                  <div class="col-lg-8 col-sm-12 col-12 text-start">
+                    <h5 class="pt-1 m-0 text-primary">OSUME Dusk Keycaps</h5>
+                    <span>status: </span
+                    ><span class="few-left"><strong>few-left</strong></span>
+                  </div>
+                </div>
+              </td>
+              <td class="col-1 qty">
+                <input type="number" class="form-control" value="2">
+              </td>
+              <td>$110.00</td>
+              <td>$220.00</td>
               <td>
                 <button type="button" class="btn btn-primary">X</button>
               </td>
@@ -211,10 +217,37 @@
             <!--end of third product-->
 
             <tr>
+              <td class="cart-product ps-3">
+                <div class="product-detail row">
+                  <img
+                    class="mr-3 thumbnail col-lg-4 col-md-5 col-sm-6 col-5"
+                    width="75"
+                    src="images/osume-mochi.jpg"
+                    alt="OSUME Mochi keycaps"
+                  />
+                  <div class="col-lg-8 col-sm-12 col-12 text-start">
+                    <h5 class="pt-1 m-0 text-primary">OSUME Mochi Keycaps</h5>
+                    <span>status: </span
+                    ><span class="instock"><strong>in-stock</strong></span>
+                  </div>
+                </div>
+              </td>
+              <td class="col-1 qty">
+                <input type="number" class="form-control" value="1">
+              </td>
+              <td>$95.00</td>
+              <td>$95.00</td>
+              <td>
+                <button type="button" class="btn btn-primary">X</button>
+              </td>
+            </tr>
+            <!--end of fourth product-->
+
+            <tr>
               <td colspan="3" class="text-end pe-5">
                 <h6 class="m-0">subtotal</h6>
               </td>
-              <td>$755.00</td>
+              <td>$875.00</td>
               <td></td>
             </tr>
             <!--subtotal-->
@@ -232,7 +265,7 @@
               <td colspan="3" class="text-end pe-5">
                 <h6 class="m-0">total</h6>
               </td>
-              <td>$755.00</td>
+              <td>$875.00</td>
               <td></td>
             </tr>
             <!--total-->
@@ -242,7 +275,7 @@
         <form action="checkoutpage.html" method="get">
           <div class="text-center mt-4">
             <button
-              class="btn btn-primary"
+              class="btn btn-primary fs-4"
               type="submit"
               action="checkoutpage.html"
             >

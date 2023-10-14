@@ -320,6 +320,10 @@ li img:hover {
     padding: 4rem 10% 4rem 10%;
 }
 
+.qty {
+    width: .5%;
+}
+
 
 /* MODAL */
 

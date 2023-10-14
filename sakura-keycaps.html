@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/mediaqueries.css" />
   </head>
+
   <body>
     <nav class="navbar navbar-expand-lg">
       <div class="container-fluid">
@@ -103,86 +104,151 @@
       </div>
     </nav>
 
+    <div class="free-shipping text-center">
+      <h5>free shipping for orders over $100!</h5>
+    </div>
+
     <main class="container">
       <nav class="my-3 ms-3" style="--bs-breadcrumb-divider: '>'">
         <ol class="breadcrumb">
-          <li class="breadcrumb-item"><a href="/">home</a></li>
-          <li class="breadcrumb-item active" aria-current="page">about us</li>
+          <li class="breadcrumb-item"><a href="/"> home </a></li>
+          <li class="breadcrumb-item">
+            <a href="keycaps.html"> keycaps </a>
+          </li>
+          <li class="breadcrumb-item active" aria-current="page">
+            osume sakura keycaps
+          </li>
         </ol>
       </nav>
 
-      <div class="about-section">
-        <div class="row mb-5">
-          <div class="col-xl-7">
+      <div class="product-container mb-5">
+        <div class="row g-1">
+          <div class="col-xxl-7 col-xl-6">
             <img
-              src="images/keyboard-photo.jpg"
-              alt="Keyboard photo"
-              class="img-fluid"
+              src="images/osume-sakura.jpg"
+              class="img-fluid rounded"
+              alt="Sakura keycaps"
             />
           </div>
 
-          <div class="col fs-5 mt-5">
-            <h1>About Us</h1>
-            <p>
-              Welcome to
-              <span class="fst-italic fw-semibold">
-                Custom Keys Enthusiasts--where your fingers find their perfect match!
-              </span>
-              Here, we transform ordinary keyboards into extraordinary tools for
-              your personal and professional needs. We're passionate about
-              crafting custom keyboards that are not only functional but also a
-              reflection of your unique style and preferences.
-            </p>
+          <div class="col-xxl-5 col-xl-6 ps-5">
+            <h3 class="m-0 pt-3">Sakura Keycaps</h3>
+            <h5 class="mb-2">by OSUME</h5>
+            <h5 class="mb-3">$110.00</h5>
+            <ul>
+              <li><span class="fw-semibold">Novelty kit included</span></li>
+              <li>Cherry profile PBT keycaps</li>
+              <li>compatible sizes: full sized, tkl, 75%, 70%, 65%, 60%</li>
+              <li>compatible layouts: ANSI & ISO, mac, alice</li>
+            </ul>
+
+            <div id="carousel" class="carousel slide mt-5">
+              <div class="carousel-inner rounded">
+                <div class="carousel-item active">
+                  <img
+                    src="images/osume-sakura-novelty.jpg"
+                    class="d-block w-100 rounded"
+                    alt="Sakura keycaps"
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="images/osume-sakura-demo.jpg"
+                    class="d-block w-100 rounded"
+                    alt="Sakura keycaps"
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="images/osume-sakura-demo-2.jpg"
+                    class="d-block w-100 rounded"
+                    alt="Sakura keycaps"
+                  />
+                </div>
+              </div>
+              <button
+                class="carousel-control-prev"
+                type="button"
+                data-bs-target="#carousel"
+                data-bs-slide="prev"
+              >
+                <span
+                  class="carousel-control-prev-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button
+                class="carousel-control-next"
+                type="button"
+                data-bs-target="#carousel"
+                data-bs-slide="next"
+              >
+                <span
+                  class="carousel-control-next-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
           </div>
+
+          <hr />
+          <form action="#" method="get">
+            <div class="row">
+              <div class="col-12 text-end">
+                <span class="fs-2">$110.00</span>
+              </div>
+              <div class="col-12">
+                <a
+                  type="button"
+                  href="shoppingbasket.html"
+                  class="btn btn-primary float-end"
+                  data-bs-toggle="modal"
+                  data-bs-target="#addedToCart"
+                >
+                  add to cart
+                </a>
+              </div>
+            </div>
+          </form>
         </div>
+      </div>
 
-        <div class="row mb-5">
-          <div class="col-xl-6 fs-5 mt-5">
-            <h2>Our Story</h2>
-            <p>
-              At
-              <span class="fst-italic fw-semibold">
-                Custom Keys Enthusiasts </span
-              >, our journey began with a simple realization: off-the-shelf
-              keyboards don't always cater to the diverse needs and desires of
-              individuals. We recognized the increasing demand for personalized
-              and high-quality mechanical keyboards, and our mission was born.
-              Our founders, Micah Kashiwabara, shared a common vision of
-              creating a space where keyboard enthusiasts, artists, and tech
-              lovers could collaborate to bring your dream keyboard to life.
-            </p>
-          </div>
-          <div class="col">
-            <img
-              src="images/keyboard-photo-5.jpg"
-              alt="Keyboard photo"
-              class="img-fluid"
-            />
-          </div>
-        </div>
-
-        <div class="row mb-5">
-          <div class="col-xl-7">
-            <img
-              src="images/pc75b-kitty-4.jpg"
-              alt="Keyboard photo"
-              class="img-fluid"
-            />
-          </div>
-
-          <div class="col fs-5 mt-5">
-            <h1>Your Vision, Our Creation</h1>
-            <p>
-              At
-              <span class="fst-italic fw-semibold">
-                Custom Keys Enthusiasts </span
-              >, we believe in the power of personalization. Whether you're a
-              gamer, a programmer, a designer, or anyone who values a quality
-              keyboard, we're here to make your vision a reality. Our custom
-              keyboards can be tailored to your specific needs--from the key
-              switches to the keycap designs and even the lighting effects. Your
-              keyboard, your rules. Doing our best <span class="fw-semibold">making typing a pleasure, not a task. </span>
-            </p>
+      <div
+        class="modal fade"
+        id="addedToCart"
+        data-bs-backdrop="static"
+        data-bs-keyboard="false"
+        tabindex="-1"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5">successfully added to cart!</h1>
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="modal"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="modal-body">
+              would you like to continue shopping or proceed to cart?
+            </div>
+            <div class="modal-footer">
+              <button
+                type="button"
+                class="btn btn-secondary"
+                data-bs-dismiss="modal"
+              >
+                continue shopping
+              </button>
+              <a type="button" class="btn btn-primary" href="shoppingcart.html">
+                cart
+              </a>
+            </div>
           </div>
         </div>
       </div>

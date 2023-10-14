@@ -136,11 +136,11 @@
         font-size: x-small;
     }
 
-    .cart-container, .cart-container h6{
+    .cart-container, .cart-container h6, .qty .form-control{
         font-size: small;
     }
 
-    .cart-container .btn {
+    .cart-container .btn, .qty .form-control {
         padding: .25rem;
         font-size: x-small;
     }
