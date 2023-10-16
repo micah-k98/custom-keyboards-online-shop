@@ -22,6 +22,34 @@ a {
     color: #7d5a5a;
 }
 
+.btn-primary {
+    background-color: #faf2f2;
+    color: #7d5a5a;
+    border-color: #7d5a5a;
+    --bs-btn-active-bg: #f1d1d1;
+    --bs-btn-active-border-color: #7d5a5a;
+    --bs-btn-hover-bg: #f1d1d1;
+    --bs-btn-hover-border-color: #7d5a5a;
+    --bs-btn-disabled-bg: #f1d1d1;
+    --bs-btn-disabled-border-color: #7d5a5a;
+    --bs-btn-bg: #f1d1d1;
+    --bs-btn-border-color: #7d5a5a;
+}
+
+.btn-secondary {
+    background-color: #f3e1e1;
+    color: #829460;
+    border-color: #829460;
+    --bs-btn-active-bg: #f3f3f3;
+    --bs-btn-active-border-color: #829460;
+    --bs-btn-hover-bg: #f3e1e1;
+    --bs-btn-hover-border-color: #829460;
+    --bs-btn-disabled-bg: #f3e1e1;
+    --bs-btn-disabled-border-color: #829460;
+    --bs-btn-bg: #f3e1e1;
+    --bs-btn-border-color: #829460;
+}
+
 
 /* NAVIGATION BAR */
 
@@ -97,7 +125,6 @@ li img:hover {
 /* HERO SECTION */
 .hero-section img {
     position: relative;
-    max-width: 100vw;
 }
 
 
@@ -158,10 +185,6 @@ li img:hover {
     margin-top: .5rem;
 }
 
-/* .first-col {
-    margin: 3rem 0 0 0;
-} */
-
 .second-col, .second-col h4 {
     margin: .5rem 0 0 0 ;
     color: #7d5a5a;
@@ -202,41 +225,13 @@ li img:hover {
     padding: 4rem 10% 4rem 10%;
 }
 
-.btn-primary {
-    background-color: #faf2f2;
-    color: #7d5a5a;
-    border-color: #7d5a5a;
-    --bs-btn-active-bg: #f1d1d1;
-    --bs-btn-active-border-color: #7d5a5a;
-    --bs-btn-hover-bg: #f1d1d1;
-    --bs-btn-hover-border-color: #7d5a5a;
-    --bs-btn-disabled-bg: #f1d1d1;
-    --bs-btn-disabled-border-color: #7d5a5a;
-    --bs-btn-bg: #f1d1d1;
-    --bs-btn-border-color: #7d5a5a;
-}
-
-.btn-secondary {
-    background-color: #f3e1e1;
-    color: #829460;
-    border-color: #829460;
-    --bs-btn-active-bg: #f3f3f3;
-    --bs-btn-active-border-color: #829460;
-    --bs-btn-hover-bg: #f3e1e1;
-    --bs-btn-hover-border-color: #829460;
-    --bs-btn-disabled-bg: #f3e1e1;
-    --bs-btn-disabled-border-color: #829460;
-    --bs-btn-bg: #f3e1e1;
-    --bs-btn-border-color: #829460;
-}
-
 .form-check .form-check-input {
     float: none;
     margin-right: .5rem;
 }
 
 
-/* CUSTOMIZED KEYBOARDS PAGE */
+/* CUSTOMIZED KEYBOARDS, KEYCAPS, & BUILD YOUR OWN PAGES */
 
 .card {
     color:#7d5a5a
@@ -271,11 +266,6 @@ li img:hover {
     margin: 1rem 0 2rem 0;
 }
 
-/* .product-container .form-check-label {
-    color: #829460;
-} */
-
-
 .table {
     width: 85%;
     --bs-table-color: #829460;
@@ -291,7 +281,6 @@ li img:hover {
 
 
 /* CART & CHECKOUT PAGE */
-
 
 .instock strong {
     color: #90a17d !important;
@@ -337,5 +326,4 @@ li img:hover {
 .about-section {
     display: flex;
     flex-flow: column wrap;
-    
 }

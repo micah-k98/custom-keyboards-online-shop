@@ -21,7 +21,7 @@
           <img
             src="images/shop-logo.png"
             alt="Custom Keys Enthusiasts"
-            width="250px"
+            width="250"
             title="Custom Keys Enthusiasts Logo"
           />
         </a>
@@ -71,7 +71,7 @@
                   placeholder="Search"
                   aria-label="Search"
                 />
-                <button type="submit" class="nav-link" for="#search">
+                <button type="submit" class="nav-link">
                   <img
                     src="images/search-icon-green.png"
                     alt="Search"
@@ -254,7 +254,11 @@
         <div class="checkout">
           <h2 class="mb-5 text-center">checkout details</h2>
 
-          <form class="checkout-form col-12" action="orderComplete.html" method="get">
+          <form
+            class="checkout-form col-12"
+            action="orderComplete.html"
+            method="get"
+          >
             <h5>contact</h5>
             <div class="input-group mb-2 col-6">
               <span class="input-group-text">@</span>
@@ -278,7 +282,7 @@
                   placeholder="first name"
                   required
                 />
-                <label for="#fName" class="form-label ms-3"> first name </label>
+                <label for="fName" class="form-label ms-3"> first name </label>
                 <div class="invalid-feedback">valid first name required</div>
               </div>
 
@@ -290,7 +294,7 @@
                   placeholder="last name"
                   required
                 />
-                <label for="#lName" class="form-label ms-3"> last name </label>
+                <label for="lName" class="form-label ms-3"> last name </label>
                 <div class="invalid-feedback">valid last name required</div>
               </div>
             </div>
@@ -302,7 +306,7 @@
                 id="company"
                 placeholder="company name (optional)"
               />
-              <label for="#company" class="form-label">
+              <label for="company" class="form-label">
                 company name (optional)
               </label>
             </div>
@@ -315,7 +319,7 @@
                 placeholder="address"
                 required
               />
-              <label for="#address" class="form-label"> address </label>
+              <label for="address" class="form-label"> address </label>
               <div class="invalid-feedback">valid address required</div>
             </div>
 
@@ -326,7 +330,7 @@
                 id="address2"
                 placeholder="address 2 (optional)"
               />
-              <label for="#address2" class="form-label">
+              <label for="address2" class="form-label">
                 address 2 (optional)
               </label>
             </div>
@@ -385,7 +389,7 @@
                   <option>Milwaukee</option>
                   <option>Cheyenne</option>
                 </select>
-                <label class="ms-3" for="#city"> city </label>
+                <label class="ms-3" for="city"> city </label>
                 <div class="invalid-feedback">valid city required</div>
               </div>
 
@@ -441,7 +445,7 @@
                   <option>Wisconsin</option>
                   <option>Wyoming</option>
                 </select>
-                <label class="ms-3" for="#state"> state </label>
+                <label class="ms-3" for="state"> state </label>
                 <div class="invalid-feedback">valid state required</div>
               </div>
 
@@ -454,7 +458,7 @@
                   maxlength="5"
                   required
                 />
-                <label for="#zip" class="form-label ms-3"> zip code </label>
+                <label for="zip" class="form-label ms-3"> zip code </label>
                 <div class="invalid-feedback">valid zip code required</div>
               </div>
             </div>
@@ -468,14 +472,13 @@
                 required
                 maxlength="10"
               />
-              <label for="#phoneNumber" class="form-label">
-                phone number
-              </label>
+              <label for="phoneNumber" class="form-label"> phone number </label>
               <div class="invalid-feedback">phone number required</div>
             </div>
 
             <h5 class="mt-5">shipping method</h5>
             <select class="form-select ps-3" id="shipment" required>
+              <option value="">Choose</option>
               <option>standard shipping (5-7 business days)</option>
               <option>express shipping (2-3 business days) +$30</option>
             </select>
@@ -491,7 +494,7 @@
                   checked
                   required
                 />
-                <label class="form-check-label" for="#credit">
+                <label class="form-check-label" for="credit">
                   credit card
                 </label>
               </div>
@@ -503,9 +506,7 @@
                   id="debit"
                   required
                 />
-                <label class="form-check-label" for="#debit">
-                  debit card
-                </label>
+                <label class="form-check-label" for="debit"> debit card </label>
               </div>
 
               <div class="row ps-3">
@@ -518,7 +519,7 @@
                     maxlength="16"
                     required
                   />
-                  <label for="#cardNumber" class="form-label ms-3">
+                  <label for="cardNumber" class="form-label ms-3">
                     card number
                   </label>
                   <div class="invalid-feedback">valid card number required</div>
@@ -533,7 +534,7 @@
                     required
                     maxlength="5"
                   />
-                  <label for="#expirationDate" class="form-label ms-3">
+                  <label for="expirationDate" class="form-label ms-3">
                     expiration date
                   </label>
                   <div class="invalid-feedback">
@@ -550,7 +551,7 @@
                     maxlength="3"
                     required
                   />
-                  <label for="#code" class="form-label ms-3">
+                  <label for="code" class="form-label ms-3">
                     security code
                   </label>
                   <div class="invalid-feedback">
@@ -568,7 +569,7 @@
                   maxlength="30"
                   required
                 />
-                <label for="#cardName" class="form-label ms-3">
+                <label for="cardName" class="form-label ms-3">
                   name on card
                 </label>
                 <div class="invalid-feedback">name on card required</div>
@@ -581,7 +582,7 @@
                   id="paypal"
                   required
                 />
-                <label class="form-check-label" for="#paypal"> PayPal </label>
+                <label class="form-check-label" for="paypal"> PayPal </label>
               </div>
               <div class="same-address form-check mt-4">
                 <input
@@ -590,7 +591,7 @@
                   name="checkbox"
                   id="sameAddress"
                 />
-                <label class="form-check-label" for="#sameAddress">
+                <label class="form-check-label" for="sameAddress">
                   use shipping address as billing address
                 </label>
               </div>
@@ -614,7 +615,7 @@
               <img
                 src="images/shop-logo.png"
                 alt="Custom Keys Enthusiasts"
-                width="180px"
+                width="180"
                 class="pt-4"
                 title="Custom Keys Enthusiasts Logo"
               />
